@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: D:&#x2F;Practise&#x2F;TestNGCucumber&#x2F;src&#x2F;main&#x2F;java&#x2F;Features&#x2F;Login.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user launch browser (PASSED : 12s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user is on login page (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user logs into application (PASSED : 17s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">validate logged in username is displayed (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user closes browser (PASSED : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-04-11T17:53:33 IST" name="BDD Test Suite" finished-at="2020-04-11T17:54:04 IST" duration-ms="30927">
+    <groups>
+      <group name="cucumber">
+        <method signature="Runner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.Runner@3b938003]" name="feature" class="TestRunner.Runner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2020-04-11T17:53:33 IST" name="FREE CRM Test" finished-at="2020-04-11T17:54:04 IST" duration-ms="30927">
+      <class name="TestRunner.Runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:TestRunner.Runner@3b938003]" started-at="2020-04-11T17:53:33 IST" name="setUpClass" finished-at="2020-04-11T17:53:33 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.Runner@3b938003]" started-at="2020-04-11T17:53:34 IST" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-11T17:54:04 IST" duration-ms="30615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check Login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: D:&#x2F;Practise&#x2F;TestNGCucumber&#x2F;src&#x2F;main&#x2F;java&#x2F;Features&#x2F;Login.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user launch browser (PASSED : 12s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user is on login page (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user logs into application (PASSED : 17s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">validate logged in username is displayed (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user closes browser (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.Runner@3b938003]" started-at="2020-04-11T17:54:04 IST" name="tearDownClass" finished-at="2020-04-11T17:54:04 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.Runner -->
+    </test> <!-- FREE CRM Test -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>

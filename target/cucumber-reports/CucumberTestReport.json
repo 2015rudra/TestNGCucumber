@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify Login Functionality",
+        "description": "",
+        "id": "check-login-functionality;verify-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12410609900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch browser",
+            "match": {
+              "location": "LoginStepDefinition.user_launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 70835000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17424031800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user logs into application",
+            "match": {
+              "location": "LoginStepDefinition.user_logs_into_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33662500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate logged in username is displayed",
+            "match": {
+              "location": "LoginStepDefinition.validate_logged_in_username_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 634406300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user closes browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check Login functionality",
+    "description": "",
+    "id": "check-login-functionality",
+    "keyword": "Feature",
+    "uri": "D:/Practise/TestNGCucumber/src/main/java/Features/Login.feature"
+  }
+]
