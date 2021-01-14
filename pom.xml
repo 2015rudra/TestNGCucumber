@@ -121,7 +121,7 @@ https://mvnrepository.com/artifact/net.masterthought/maven-cucumber-reporting
 <dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
-			<version>3.16-beta2</version>
+			<version>3.17</version>
 		</dependency>
 
 
@@ -154,7 +154,7 @@ https://mvnrepository.com/artifact/net.masterthought/maven-cucumber-reporting
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
-			<version>3.9</version>
+			<version>3.17</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.poi</groupId>
